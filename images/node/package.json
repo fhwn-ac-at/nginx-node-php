@@ -1,0 +1,14 @@
+{
+  "name": "docker-demo",
+  "version": "1.0.0",
+  "description": "Simple dockerized express.js app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Kevin Perry",
+  "license": "Unlicense",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,14 @@
+services:
+  web:
+    build: ./images/web
+    ports:
+      - 8080:80
+    depends_on:
+      - php
+      - node
+
+  php:
+    build: ./images/php
+
+  node:
+    build: ./images/node
